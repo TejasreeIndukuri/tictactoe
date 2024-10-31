@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Main Game Title -->
+    <h1 style="text-align: center; color: black;">TIC TAC TOE</h1>
+
     <!-- Game Mode Selection -->
     <div id="game-options">
         <h2>Choose Game Mode</h2>
@@ -15,13 +18,13 @@
     </div>
 
     <!-- Player Name Input -->
-<div id="player-names" class="player-names">
-    <h3>Enter Player Names</h3>
-    <input type="text" id="player1-name" placeholder="Player 1 Name">
-    <input type="text" id="player2-name" placeholder="Player 2 Name" style="display:none;">
-    <button onclick="startTicTacToe()">Start Game</button>
-</div>
-                                                            
+    <div id="player-names" class="player-names">
+        <h3>Enter Player Names</h3>
+        <input type="text" id="player1-name" placeholder="Player 1 Name">
+        <input type="text" id="player2-name" placeholder="Player 2 Name" style="display:none;">
+        <button onclick="startTicTacToe()">Start Game</button>
+    </div>
+
     <!-- Game Board and Controls -->
     <div id="game-container" style="display:none;">
         <h2 id="status"></h2>
@@ -44,5 +47,6 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
